@@ -16,7 +16,7 @@ const themeConfig = {
     // defaults to false, set to true to enable
     editLinks: true,
     // custom text for edit link. Defaults to "Edit this page"
-    editLinkText: '编辑此页面',
+    editLinkText: '帮助我们改善此页面！',
 
     /**
      * support for

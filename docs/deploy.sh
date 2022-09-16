@@ -6,3 +6,11 @@ set -e
 # 生成静态文件
 npm run build
 
+uses: yuekesoft/setup-ossutil@master
+with:
+endpoint: oss-cn-hangzhou.aliyuncs.com
+access-key-id: ${{ secrets.OSS_KEY_ID }}
+access-key-secret: ${{ secrets.OSS_KEY_SECRET }}
+
+ossutil rm oss://vuepressdocs/ -rf
+ossutil cp -rf .vuepress/dist  oss://vuepressdocs/
