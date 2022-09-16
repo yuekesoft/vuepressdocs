@@ -15,6 +15,6 @@ access-key-id: ${{ secrets.OSS_KEY_ID }}
 access-key-secret: ${{ secrets.OSS_KEY_SECRET }}
 
 - name: rm files from aliyun
-ossutil rm oss://vuepressdocs/ -rf
+run: ossutil rm oss://vuepressdocs/ -rf
 - name: cp files to aliyun
-ossutil cp -rf .vuepress/dist  oss://vuepressdocs/
+run: ossutil cp -rf .vuepress/dist  oss://vuepressdocs/
