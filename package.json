@@ -1,0 +1,16 @@
+{
+  "name": "ykqdsofthelp",
+  "version": "1.0.0",
+	"description": "越客二维码签到软件帮助文档",
+  "main": "index.js",
+	"author": "yuekesoft",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.9.7",
+    "vuepress-theme-reco": "^1.6.14"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
+}
