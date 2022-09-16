@@ -7,7 +7,8 @@ set -e
 npm run build
 
 - name: setup aliyun oss
-uses: yuekesoft/setup-ossutil@master
+
+uses: manyuanrong/setup-ossutil@master
 with:
 endpoint: oss-cn-hangzhou.aliyuncs.com
 access-key-id: ${{ secrets.OSS_KEY_ID }}
