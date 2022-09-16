@@ -11,8 +11,8 @@ npm run build
 uses: manyuanrong/setup-ossutil@master
 with:
 endpoint: oss-cn-hangzhou.aliyuncs.com
-access-key-id: ${{ secrets.OSS_KEY_ID }}
-access-key-secret: ${{ secrets.OSS_KEY_SECRET }}
+access-key-id: ${{secrets_OSS_KEY_ID}}
+access-key-secret: ${{secrets_OSS_KEY_SECRET}}
 
 # name: rm files from aliyun
 run: ossutil rm oss://vuepressdocs/ -rf
