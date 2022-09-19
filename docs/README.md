@@ -4,7 +4,7 @@ title: Home
 heroImage: /images/logo.svg
 actions:
   - text: 快速上手
-    link: /guide/getting-started.html
+    link: /signsoft/start.html
     type: primary
   - text: 越客官网
     link: http://www.yuekesoft.com/

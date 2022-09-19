@@ -15,6 +15,7 @@ export default {
         },
     
     theme: defaultTheme({
+        logo: 'https://vuejs.org/images/logo.png',//越客软件 官方文档 这里的图标 导航栏 Logo
         backToHome:'返回首页',
         editLinkText: '在 GitHub 上编辑此页',
         lastUpdatedText: '上次更新',
