@@ -20,7 +20,8 @@ export default {
         lastUpdatedText: '上次更新',
         contributorsText: '贡献者',
         // 你也可以直接将它设置为一个 URL
-        repo: 'yuekesoft/vuepressdocs',         
+        repo: 'yuekesoft/vuepressdocs',   
+        docsDir: 'docs',      
         // 导航栏
         navbar: nav,
         // 侧边栏数组
