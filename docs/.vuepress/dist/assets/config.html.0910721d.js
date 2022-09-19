@@ -1,0 +1,1 @@
+import{_ as c,o as n,c as r,a as e,d as o}from"./app.976bc048.js";const t={},a=e("h3",{id:"reference-config-me",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#reference-config-me","aria-hidden":"true"},"#"),o(" /reference/config.me")],-1),s=[a];function f(i,_){return n(),r("div",null,s)}const h=c(t,[["render",f],["__file","config.html.vue"]]);export{h as default};

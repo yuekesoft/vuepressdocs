@@ -1,0 +1,1 @@
+import{_ as o,o as t,c as a,a as e,d as r}from"./app.976bc048.js";const c={},s=e("h3",{id:"group-foo-md",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#group-foo-md","aria-hidden":"true"},"#"),r(" /group/foo.md")],-1),d=[s];function n(_,f){return t(),a("div",null,d)}const h=o(c,[["render",n],["__file","foo.html.vue"]]);export{h as default};
