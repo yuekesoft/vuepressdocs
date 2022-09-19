@@ -2,16 +2,21 @@ const nav =  [
     // 嵌套 Group - 最大深度为 2
     { text: '主页', link: '/' },
     {
-    text: 'Group',
+    text: '软件系列',
     children: [
         {
-        text: '/group/foo.md',
-        link: '/group/foo',
+            text: '签到管理软件',
+            link: '/group/foo',
         },
         {
-            text: '/group/bar.md',
+            text: '人脸识别签到',
             link: '/group/bar',
-        },            
+        },   
+        {
+            text: '租用版本签到',
+            link: '/group/bar',
+        }        
+        
     ],
     },
     // 控制元素何时被激活
@@ -33,6 +38,7 @@ const nav =  [
         },
     ],
     },
+    {text: '越客官网',link: 'http://www.yuekesoft.com'}
 ]
 
 module.exports = nav;

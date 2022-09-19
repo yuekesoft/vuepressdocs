@@ -6,7 +6,7 @@ import { defaultTheme } from '@vuepress/theme-default'
 
 export default {
     title: '越客软件 官方文档',
-    description: '这是我的第一个 VuePress 站点', 
+    description: '越客软件各个系列操作说明文档', 
 
     markdown: {
         headers: {
